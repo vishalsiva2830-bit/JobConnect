@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Local database
+db.sqlite3
+
+# Uploaded resumes
+media/
+
+# Frontend dependencies and build
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
