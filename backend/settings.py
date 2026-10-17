@@ -149,6 +149,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5175",
+    "https://job-connect-nine-wine.vercel.app",
 ]
 
 MEDIA_URL = '/media/'
