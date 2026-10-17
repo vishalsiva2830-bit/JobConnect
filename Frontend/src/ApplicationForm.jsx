@@ -54,7 +54,7 @@ function ApplicationForm() {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/api/applications/',
+        'https://jobconnect-backend-m20c.onrender.com/api/applications/',
         {
           method: 'POST',
           body: data,
