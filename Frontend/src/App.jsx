@@ -24,8 +24,8 @@ function Home() {
     async function fetchJobs() {
       try {
         const response = await fetch(
-          'http://127.0.0.1:8000/api/jobs/'
-        )
+        'https://jobconnect-backend-m20c.onrender.com/api/jobs/'
+      )
 
         if (!response.ok) {
           throw new Error(`HTTP Error: ${response.status}`)
